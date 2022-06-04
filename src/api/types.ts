@@ -1,22 +1,37 @@
 export type Genre = {
-    id: number,
-    name:string,
+  id: number
+  name: string
 }
 
 export type Movie = {
-    adult: boolean,
-    backdrop_path: string,
-    belongs_to_collection: null,
-    budge: number,
-    genres: Genre[],
-    homepage:string,
-    id:number,
-    imdb_id:string,
-    original_language:string,
-    original_title:string,
-    release_date: string,
-    //todo: add all fields
+  adult: boolean 
+  backdrop_path: string // фоновый путь
+  belongs_to_collection: null
+  budge: number // сдвиг
+  genres: Genre[] 
+  homepage: string
+  id: number
+  imdb_id: string
+  original_language: string
+  original_title: string
+  release_date: string
+  //todo: add all fields
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 //
